@@ -6,9 +6,9 @@ import math
 from sort import *
 
 # для видео
-cap = cv2.VideoCapture('../CarsVideo/Cars1.mp4')
+cap = cv2.VideoCapture('./CarsVideo/Cars1.mp4')
 
-model = YOLO('../YOLO_Weights/yolov8n.pt')
+model = YOLO('./YOLO_Weights/yolov8n.pt')
 
 class_names = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
                "traffic light", "fire hydrant", "stop sign", "parking meter", "bench", "bird", "cat", "parking meter",
