@@ -1,2 +1,13 @@
 # CarCounter
-Project Car Counter. Detection and counting of cars on the road. 
+Project Car Counter. 
+Обнаружение и подсчет проезжающих автмобилей.
+
+# Принцип работы
+Используется стандартная модель yolov8n, определяющая классы транспорта. Для отслеживания уникальных объектов используется код sort.py(автор: https://github.com/abewley/sort). 
+
+Для упрощения работы модели YOLO использовал маску огранчения видимости.
+![Снимок экрана 2024-06-10 в 20 49 28](https://github.com/Alexey504/CarCounter/assets/101816456/9b818750-add6-4304-aaaf-80fca4e5948e)
+
+Для наглядности используется линия детекции, меняющая цвет при пересечении с объектом.
+![Снимок экрана 2024-06-10 в 20 44 47](https://github.com/Alexey504/CarCounter/assets/101816456/3ba88bc2-37ba-4262-bb63-e5ce9c146b52)
+![Снимок экрана 2024-06-10 в 20 44 56](https://github.com/Alexey504/CarCounter/assets/101816456/34837637-37a7-4d7d-a12b-d8fa9d33abdc)
